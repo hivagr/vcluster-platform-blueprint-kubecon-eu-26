@@ -123,14 +123,14 @@ Fill out the missing values in the `config.yaml`. Override values as needed. For
 
 The only value you might need to change is the DNS (IP address), depending on your container engine network setup. You will get this information later, so you can ignore this block for now:
 
-`dnsName: cp-workshop-prod.172.18.255.254.traefik.me`
-→ `dnsName: cp-workshop-prod.YOUR-IP-ADDRESS.traefik.me`
+`dnsName: controlplane-prod.172.18.255.254.traefik.me`
+→ `dnsName:  controlplane-prod.YOUR-IP-ADDRESS.traefik.me`
 
 # Step 3 - Bootstrapping the Kubernetes Platform 💻
 
 ## External Secrets Setup with Bitwarden
 
-> ⚠️ Note: you will need here the creaed accoess token from the machine account.
+> ⚠️ Note: You will need the access token created for the machine account in the prerequisites section.
 
 In this part, you will create a secret for the Bitwarden access token in the `external-secrets` namespace.
 
