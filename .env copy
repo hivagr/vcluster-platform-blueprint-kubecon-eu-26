@@ -1,0 +1,13 @@
+# 🔁 Everything in <angle brackets> MUST be replaced.
+# 💡 Dummy values (without <>) are optional and can be left as-is if not needed
+
+### Project related values
+PROJECT_NAME='controlplane'
+PROJECT_STAGE='prod'
+DOMAIN_NAME='192.0.0.2.traefik.me'
+
+### Argo CD related values
+ARGOCD_WIZARD_ACCOUNT_PASSWORD='Sw0rdF1sh!42_1'
+
+### Git repository values
+ARGOCD_GIT_HTTPS_URL='https://github.com/hivagr/vcluster-platform-blueprint-kubecon-eu-26'
